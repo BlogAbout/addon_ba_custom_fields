@@ -1,0 +1,29 @@
+.jshop .custom_field {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.field_gallery:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.field_gallery .field_gallery_item {
+	float: left;
+	width: 24%;
+	margin: 0 1% 10px 0;
+}
+
+.field_gallery .field_gallery_item a {
+	display: block;
+	line-height: 0;
+	font-size: 0;
+}
+
+.field_gallery .field_gallery_item img {
+	width: 100%;
+	height: auto;
+	display: block;
+}

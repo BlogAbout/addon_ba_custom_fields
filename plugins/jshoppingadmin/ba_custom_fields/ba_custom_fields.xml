@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.0.0" method="upgrade" group="jshoppingproducts">
+	<name>JoomShopping addon - Custom Fields</name>
+	<creationDate>19.12.2021</creationDate>
+	<author>Blog About</author>
+	<authorEmail>info@blog-about.ru</authorEmail>
+	<authorUrl>http://blog-about.ru</authorUrl>
+	<copyright></copyright>
+	<license>Open Source License, GNU/GPL</license>
+	<version>0.0.7</version>	
+	<description>ba_custom_fields</description> 
+	<files>
+		<filename plugin="ba_custom_fields">ba_custom_fields.php</filename>
+	</files>
+</extension>
