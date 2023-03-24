@@ -1,11 +1,11 @@
 <?php
 /**
-* @version 0.0.7
-* @author А.П.В.
-* @package ba_custom_fields for Jshopping
-* @copyright Copyright (C) 2010 blog-about.ru. All rights reserved.
-* @license GNU/GPL
-**/
+ * @version 0.1.1
+ * @author А.П.В.
+ * @package ba_custom_fields for Jshopping
+ * @copyright Copyright (C) 2010 blog-about.ru. All rights reserved.
+ * @license GNU/GPL
+ **/
 defined('_JEXEC') or die('Restricted access');
 
 define('_JSHOP_BACF_NAME', "Custom product fields");
@@ -92,4 +92,3 @@ define('_JSHOP_BACF_NO_VALUES_FIELD', "No field values specified.");
 define('_JSHOP_BACF_YOUTUBE_INCORRECT', "Invalid Youtube video link.");
 define('_JSHOP_BACF_DATETIME_INCORRECT', "The value is not a date.");
 define('_JSHOP_BACF_ERROR_UPLOADING_IMAGE', "Custom Fields - Error upload image. code: ");
-?>
