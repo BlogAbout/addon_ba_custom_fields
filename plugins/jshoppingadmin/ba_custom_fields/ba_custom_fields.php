@@ -1,6 +1,6 @@
 <?php
 /**
- * @version 0.1.1
+ * @version 0.1.2
  * @author А.П.В.
  * @package ba_custom_fields for Jshopping
  * @copyright Copyright (C) 2010 blog-about.ru. All rights reserved.
@@ -98,6 +98,10 @@ class plgJshoppingAdminBa_custom_fields extends JPlugin {
                 switch($field['field_type']) {
                     case 'area':
                     case 'editor':
+                    case 'radio':
+                    case 'checkbox':
+                    case 'select':
+                    case 'combobox':
                     case 'gallery':  {
                         $query = "ALTER TABLE `#__jshopping_custom_fields_values` " . $alter_text . " `ba_custom_field_" . $field_id . "` text;";
                         break;

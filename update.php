@@ -1,6 +1,6 @@
 <?php
 /**
- * @version 0.1.1
+ * @version 0.1.2
  * @author А.П.В.
  * @package ba_custom_fields for Jshopping
  * @copyright Copyright (C) 2010 blog-about.ru. All rights reserved.
@@ -12,7 +12,7 @@ $name = 'JoomShopping addon - Custom fields';
 $type = 'plugin';
 $element = 'ba_custom_fields';
 $folders = array('jshoppingproducts', 'jshoppingadmin');
-$version = '0.1.1';
+$version = '0.1.2';
 $cache = '{"creationDate":"19.12.2021","author":"Blog About","authorEmail":"info@blog-about.ru","authorUrl":"https://blog-about.ru","version":"' . $version . '"}';
 $params = '{}';
 

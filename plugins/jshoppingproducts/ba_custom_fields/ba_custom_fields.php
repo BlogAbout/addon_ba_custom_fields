@@ -1,6 +1,6 @@
 <?php
 /**
- * @version 0.1.1
+ * @version 0.1.2
  * @author А.П.В.
  * @package ba_custom_fields for Jshopping
  * @copyright Copyright (C) 2010 blog-about.ru. All rights reserved.
@@ -79,7 +79,7 @@ class plgJshoppingProductsBa_custom_fields extends JPlugin
 
         $jshopConfig = \JSFactory::getConfig();
         $doc = \JFactory::getDocument();
-        $doc->addStyleSheet(\JURI::root() . 'plugins/jshoppingproducts/ba_custom_fields/ba_custom_fields.css?ver=0.1.1');
+        $doc->addStyleSheet(\JURI::root() . 'plugins/jshoppingproducts/ba_custom_fields/ba_custom_fields.css?ver=0.1.2');
 
         $db = \JFactory::getDbo();
 
